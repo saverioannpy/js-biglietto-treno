@@ -12,7 +12,7 @@ if(passeggeroEta < 18){//Controllo se il passeggero è minorenne e applicazione 
 
 }else if(passeggeroEta > 65){ //Controllo se il passeggero è over65 e applicazione sconto del 40%.
 
-    bigliettoPrezzo = (bigliettoPrezzo - ((bigliettoPrezzo/100)*20)).toFixed(2); 
+    bigliettoPrezzo = (bigliettoPrezzo - ((bigliettoPrezzo/100)*40)).toFixed(2); 
     
 }
 console.log('[CALC:]prezzo biglietto: ' + bigliettoPrezzo); //Console-log del prezzo Finale.
