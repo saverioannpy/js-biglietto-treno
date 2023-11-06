@@ -8,11 +8,11 @@ const passeggeroEta = prompt('Inserisci la tue età:')//L'utente inserisce la su
 console.log('[INPUT:]età inserita: ' + parseInt(passeggeroEta));
 if(passeggeroEta < 18){//Controllo se il passeggero è minorenne e applicazione sconto del 20%.
 
-    bigliettoPrezzo = bigliettoPrezzo - ((bigliettoPrezzo/100)*20);
+    bigliettoPrezzo = (bigliettoPrezzo - ((bigliettoPrezzo/100)*20)).toFixed(2);
 
-}else if(passeggeroEta > 65){ //Controllo se il passeggero è minorenne e applicazione sconto del 40%
+}else if(passeggeroEta > 65){ //Controllo se il passeggero è over65 e applicazione sconto del 40%.
 
-    bigliettoPrezzo = bigliettoPrezzo - ((bigliettoPrezzo/100)*20); 
+    bigliettoPrezzo = (bigliettoPrezzo - ((bigliettoPrezzo/100)*20)).toFixed(2); 
     
 }
-console.log('[CALC:]prezzo biglietto: ' + bigliettoPrezzo); //Prezzo Finale.
+console.log('[CALC:]prezzo biglietto: ' + bigliettoPrezzo); //Console-log del prezzo Finale.

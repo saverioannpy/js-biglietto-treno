@@ -41,4 +41,4 @@ Commenti:
 
     3. LOC:18 viene effettuato un console-log al di fuori del ciclo in modo tale da darci un aggiornamento a schermo sulla variazione del prezzo a prescindere se lo sconto venga applicato o meno. 
 
-    4. Trovare un modo per evitare lunghe cifre di decimali al prezzo finale ( Cercare una funzione di approssimazione ). 
+    4. Nel caso in cui lo sconto venga applicato si utilizza si utilizza il metodo .toFixed(2) per poter approssimare il risultato finale a sole due cifre decimali.
