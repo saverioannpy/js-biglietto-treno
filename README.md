@@ -19,8 +19,10 @@ Idea di risoluzione:
 
     1. Utilizzare il prompt per chiedere all'utente di inserire il numero di km da percorrere e memorizzare il dato 
     nella variabile 'bigliettoKm'.
+    1a. Trasformo il dato inserito in un numero utilizzando il metono Number().
     2. Effettuare un primo calcolo del prezzo del biglietto moltiplicando il dato appena inserito dall'utente per il prezzo al km (0.21€/km) e memorizziamo il risultato dell'operazione nella variabile 'bigliettoPrezzo'.
     3. Utilizzare il prompt per chiedere all'utente di inserire la sua età e memorizzare il dato nella variabile costante 'passeggeroEta'.
+    3a. Trasformo il dato inserito in un numero utilizzando il metono Number().
     4. Implementare delle condizioni di controllo sull'età inserita dall'utente per poter stabilire se va calcolato o meno uno sconto: 
 
         CONDIZIONI:
